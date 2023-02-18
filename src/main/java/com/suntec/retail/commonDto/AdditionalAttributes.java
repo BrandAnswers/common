@@ -5,7 +5,7 @@ import lombok.Data;
 import java.util.List;
 
 @Data
-public class AdditionalInfoEntityId {
+public class AdditionalAttributes {
 
     private String attributeId;
 
@@ -22,5 +22,4 @@ public class AdditionalInfoEntityId {
     private boolean isPlatformAttribute;
 
     private boolean isMandatory;
-
 }

@@ -45,7 +45,7 @@ public class EntityByIdDto {
 
     private String expiryDate;
 
-    private List<AdditionalInfoEntityId> additionalInfos;
+    private List<AdditionalAttributes> additionalAttributes;
 
     private List<CooperativesByEntity> cooperativesByEntities;
 
