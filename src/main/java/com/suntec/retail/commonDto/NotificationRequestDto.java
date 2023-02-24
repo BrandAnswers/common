@@ -21,4 +21,8 @@ public class NotificationRequestDto {
     private NotificationRequestType notificationRequestType;
 
     private Object requestPayload;
+
+    private String notificationMessage;
+
+    private String comments;
 }
