@@ -37,6 +37,8 @@ public class ProductDto {
 
     private List<String> availableRegions;
 
+    private List<String> productImages;
+
     private String currency;
 
     private String entityName;
