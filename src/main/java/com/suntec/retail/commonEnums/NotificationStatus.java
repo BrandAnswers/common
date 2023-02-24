@@ -1,4 +1,4 @@
-package com.suntec.retail.enums;
+package com.suntec.retail.commonEnums;
 
 public enum NotificationStatus {
 
