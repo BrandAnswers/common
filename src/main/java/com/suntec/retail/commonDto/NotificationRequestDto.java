@@ -5,6 +5,8 @@ import com.suntec.retail.commonEnums.NotificationRequestType;
 import com.suntec.retail.commonEnums.NotificationStatus;
 import lombok.Data;
 
+import java.time.Instant;
+import java.time.LocalDateTime;
 import java.util.List;
 
 @Data
@@ -24,5 +26,9 @@ public class NotificationRequestDto {
 
     private String notificationMessage;
 
-    private String comments;
+    private List<CommentDto> comments;
+
+    private Instant createdAt;
+
+    private Instant updatedAt;
 }

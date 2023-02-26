@@ -4,6 +4,6 @@ public enum Status {
 
     ACTIVE,
     REGISTERED,
-
-    INACTIVE
+    INACTIVE,
+    ALL
 }
