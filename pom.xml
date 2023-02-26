@@ -10,7 +10,7 @@
 
     <groupId>com.suntec.retail</groupId>
     <artifactId>common</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.3</version>
     <name>common</name>
     <description>Module providing classes common to services</description>
 
