@@ -14,6 +14,8 @@ public class NotificationRequestDto {
 
     private String requestId;
 
+    private String requesterUsername;
+
     private String requesterEntityId;
 
     private List<String> subscriberEntityId;
