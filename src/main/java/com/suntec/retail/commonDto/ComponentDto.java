@@ -21,6 +21,9 @@ public class ComponentDto {
     @JsonProperty("isEnabled")
     private boolean isEnabled;
 
+    @JsonProperty("ordinal")
+    private Integer ordinal;
+
     @JsonProperty("actions")
     private Map<String, ActionDto> actions;
 
@@ -77,5 +80,12 @@ public class ComponentDto {
         this.sections = sections;
     }
 
+    public Integer getOrdinal() {
+        return ordinal;
+    }
+
+    public void setOrdinal(Integer ordinal) {
+        this.ordinal = ordinal;
+    }
 }
 
