@@ -2,9 +2,9 @@ package com.suntec.retail.commonDto;
 
 public class Usage {
 
-    private String prompt_tokens;
+    private int prompt_tokens;
 
-    private String completion_tokens;
+    private int completion_tokens;
 
-    private String total_tokens;
+    private int total_tokens;
 }

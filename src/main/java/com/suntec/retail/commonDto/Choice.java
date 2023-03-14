@@ -1,5 +1,8 @@
 package com.suntec.retail.commonDto;
 
+import lombok.Data;
+
+@Data
 public class Choice {
 
     private String text;
