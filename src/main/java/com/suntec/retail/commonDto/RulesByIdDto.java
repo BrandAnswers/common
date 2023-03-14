@@ -16,6 +16,8 @@ public class RulesByIdDto {
 
     private String ruleCode;
 
+    private String className;
+
     private boolean isPlatformRule;
 
     private boolean  isEnabled;
